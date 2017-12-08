@@ -1,0 +1,130 @@
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\obj\Debug\P4.csprojResolveAssemblyReference.cache
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\obj\Debug\P4.csproj.CoreCompileInputs.cache
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\csc.exe
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\csc.exe.config
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\csc.rsp
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\csi.exe
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\csi.exe.config
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\csi.rsp
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.AppContext.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Console.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.IO.Compression.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.IO.Pipes.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Security.Claims.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Threading.Thread.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.ValueTuple.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Xml.XPath.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\vbc.exe
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\vbc.exe.config
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\vbc.rsp
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\VBCSCompiler.exe
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\P4.dll.config
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\P4.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\P4.pdb
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\Newtonsoft.Json.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\System.Net.Http.Formatting.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\System.Web.Http.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\System.Web.Http.WebHost.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\Newtonsoft.Json.xml
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\System.Net.Http.Formatting.xml
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\System.Web.Http.xml
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\bin\System.Web.Http.WebHost.xml
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\obj\Debug\P4.dll
+C:\Users\zhaow\Documents\Visual Studio 2017\Projects\P4\P4\obj\Debug\P4.pdb
+C:\Programs\SOA\P4\P4\bin\roslyn\csc.exe
+C:\Programs\SOA\P4\P4\bin\roslyn\csc.exe.config
+C:\Programs\SOA\P4\P4\bin\roslyn\csc.rsp
+C:\Programs\SOA\P4\P4\bin\roslyn\csi.exe
+C:\Programs\SOA\P4\P4\bin\roslyn\csi.exe.config
+C:\Programs\SOA\P4\P4\bin\roslyn\csi.rsp
+C:\Programs\SOA\P4\P4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Programs\SOA\P4\P4\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Programs\SOA\P4\P4\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.AppContext.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Collections.Immutable.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Console.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Diagnostics.Process.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.IO.Compression.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.IO.FileSystem.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.IO.Pipes.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Reflection.Metadata.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Security.AccessControl.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Security.Claims.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Threading.Thread.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.ValueTuple.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Xml.XPath.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Programs\SOA\P4\P4\bin\roslyn\vbc.exe
+C:\Programs\SOA\P4\P4\bin\roslyn\vbc.exe.config
+C:\Programs\SOA\P4\P4\bin\roslyn\vbc.rsp
+C:\Programs\SOA\P4\P4\bin\roslyn\VBCSCompiler.exe
+C:\Programs\SOA\P4\P4\bin\roslyn\VBCSCompiler.exe.config
+C:\Programs\SOA\P4\P4\bin\P4.dll.config
+C:\Programs\SOA\P4\P4\bin\P4.dll
+C:\Programs\SOA\P4\P4\bin\P4.pdb
+C:\Programs\SOA\P4\P4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Programs\SOA\P4\P4\bin\Newtonsoft.Json.dll
+C:\Programs\SOA\P4\P4\bin\System.Net.Http.Formatting.dll
+C:\Programs\SOA\P4\P4\bin\System.Web.Http.dll
+C:\Programs\SOA\P4\P4\bin\System.Web.Http.WebHost.dll
+C:\Programs\SOA\P4\P4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Programs\SOA\P4\P4\bin\Newtonsoft.Json.xml
+C:\Programs\SOA\P4\P4\bin\System.Net.Http.Formatting.xml
+C:\Programs\SOA\P4\P4\bin\System.Web.Http.xml
+C:\Programs\SOA\P4\P4\bin\System.Web.Http.WebHost.xml
+C:\Programs\SOA\P4\P4\obj\Debug\P4.csprojResolveAssemblyReference.cache
+C:\Programs\SOA\P4\P4\obj\Debug\P4.csproj.CoreCompileInputs.cache
+C:\Programs\SOA\P4\P4\obj\Debug\P4.dll
+C:\Programs\SOA\P4\P4\obj\Debug\P4.pdb

@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Players</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <h2>Players</h2><b id="message"></b>
+        <ul id="all" />
+    </div>
+
+    <div>
+        <h2>Find</h2> 
+        <select id="find_index" name="find_index">
+            <option value="ID">ID</option>
+            <option value="Registration_ID">Registration_ID</option>
+            <option value="Player_name">Player_name</option>
+            <option value="Team_name">Team_name</option>
+        </select>
+        <input type="number" id="find_value" required/>
+        <input type="button" value="Search" onclick="find()" />
+        <ul id="findplayers" />
+    </div>
+
+    <div>
+        <h2>Delete</h2>
+        <select id="del_index" name="del_index">
+            <option value="ID">ID</option>
+            <option value="Team_name">Team_name</option>
+        </select>
+        <input type="number" id="del_value" required/>
+        <input type="button" value="Delete" onclick="del()" />
+        <p id="delplayers" />
+    </div>
+
+    <div>
+        <h2>Add a player</h2>
+        <form id="add_form">
+            <label for="Registration_ID">Registration ID: </label> <input class="add" type="text" id="Registration_ID" name="Registration_ID" required/><br />
+            <label for="Player_name">Player name: </label> <input class="add" type="text" id="Player_name" name="Player_name" required/><br />
+            <label for="Team_name">Team name: </label> <input class="add" type="text" id="Team_name" name="Team_name" required/><br />
+            <label for="Date_of_birth">Date of birth: </label> <input class="add" type="date" id="Date_of_birth" name="Date_of_birth" required/><br />
+            <input type="button" id="post" value="Add" onclick="add()" />
+        </form>
+    </div>
+
+    <div>
+        <h2>Update a player</h2>
+        <label for="update_id">ID: </label> <input type="number" id="update_id" name="ID" required/><br />
+        <form id="up_form">            
+            <label for="Registration_ID">Registration ID: </label> <input type="text" id="Registration_ID" name="Registration_ID" /><br />
+            <label for="Player_name">Player name: </label> <input type="text" id="Player_name" name="Player_name" /><br />
+            <label for="Team_name">Team name: </label> <input type="text" id="Team_name" name="Team_name" /><br />
+            <label for="Date_of_birth">Date of birth: </label> <input type="date" id="Date_of_birth" name="Date_of_birth" /><br />
+            <input type="button" id="put" value="Update" onclick="update()" />
+        </form>
+    </div>
+
+    <script>
+        var uri = "api/player";
+
+        $(document).ready(function () {
+            display();
+
+            $("#find_index").click(function (e) {
+                if ($("#find_index").val() == "ID") {
+                    $("#find_value").attr("type", "number");
+                } else {
+                    $("#find_value").attr("type", "text");
+                }
+            });
+
+            $("#del_index").click(function (e) {
+                if ($("#del_index").val() == "ID") {
+                    $("#del_value").attr("type", "number");
+                } else {
+                    $("#del_value").attr("type", "text");
+                }
+            });
+        });   
+
+        function find() {
+            var index = $('#find_index').val();
+            var value = $('#find_value').val();
+            if (value == '') {
+                alert("Input an valid value!");
+            }
+            else {
+                if (index == 'ID') {
+                    $('#findplayers').empty();
+                    $.ajax({
+                        type: 'GET',
+                        url: uri + '/' + value,
+                        success: function (data) {
+                            $('#findplayers').text(formateItem(data));
+                            $('#find_value').val('');
+                        }
+                    })
+                } 
+                else {
+                    $('#findplayers').empty();
+                    $.ajax({
+                        type: 'GET',
+                        url: uri + '?' + index + '=' + value,
+                        success: function (data) {
+                            $.each(data, function (key, value) {
+                                $('<li>', { text: formateItem(value) }).appendTo($('#findplayers'));
+                            });
+                            $('#find_value').val('');
+                        }
+                    })
+                }   
+            }            
+        }
+
+        function del() {
+            var index = $('#del_index').val();
+            var value = $('#del_value').val();
+            if (value == '') {
+                alert("Input an valid value!");
+            }
+            else {
+                if (index == 'ID') {
+                    $.ajax({
+                        type: 'DELETE',
+                        url: uri + '/' + value,
+                        success: function (data) {
+                            $('#del_value').val('');                            
+                            display();
+                        },
+                        error: function (jqXHR, testStatus, err) {
+                            alert('Error: ' + err);
+                        }
+                    })
+                }
+                else {
+                    $.ajax({
+                        type: 'DELETE',
+                        url: uri + '?' + index + '=' + value,
+                        success: function (data) {
+                            $('#del_value').val('');
+                            display();
+                        },
+                        error: function (jqXHR, testStatus, err) {
+                            alert('Error: ' + err);
+                        }
+                    })
+                }                
+            }            
+        }
+
+        function add() {
+            if ($('#Registration_ID').val() == '' || $('#Player_name').val() == '' || $('#Team_name').val() == '' || $('#Date_of_birth').val() == '') {
+                alert("Input all values!");
+            }
+            else {
+                $.ajax({
+                    type: 'POST',
+                    url: uri,
+                    data: $('#add_form').serialize(),
+                    success: function (data) {
+                        $('#Registration_ID').val('');
+                        $('#Player_name').val('');
+                        $('#Team_name').val('');
+                        $('#Date_of_birth').val('');
+                        display();
+                    }
+                })
+            }            
+        }
+
+        function update() {
+            var id = $('#update_id').val();   
+            if (id == null || id < 1) {
+                alert("Input an valid id!");
+            }
+            else {
+                $.ajax({
+                    type: 'PUT',
+                    url: uri + '/' + id,
+                    data: $('#up_form').serialize(),
+                    success: function (data) {
+                        $('#update_id').val('');
+                        $('#Registration_ID').val('');
+                        $('#Player_name').val('');
+                        $('#Team_name').val('');
+                        $('#Date_of_birth').val('');
+                        display();
+                    }
+                })
+            }            
+        }
+
+        function display() {
+            $('#all').empty();
+            $('#findplayers').empty();
+            $.ajax({
+                type: 'GET',
+                url: uri,
+                success: function (data) {
+                    $.each(data, function (key, value) {
+                        $('<li>', { text: formateItem(value) }).appendTo($('#all'));
+                    });
+                }
+            });
+        }
+
+        function formateItem(value) {
+            return 'ID: ' + value.ID + ', Registration ID: ' + value.Registration_ID + ', Player name: ' + value.Player_name + ', Team name: ' + value.Team_name + ', Date of birth: ' + value.Date_of_birth.substring(0, value.Date_of_birth.indexOf('T'));
+        }
+
+    </script>
+</body>
+</html>
